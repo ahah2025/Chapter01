@@ -29,8 +29,8 @@ public class Ex09 {
 				
 		
 		sc.close();
-		}
+	}
 				
-		}
+}
 
 
