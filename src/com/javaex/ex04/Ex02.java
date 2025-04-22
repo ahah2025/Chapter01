@@ -30,13 +30,13 @@ public class Ex02 {
 		System.out.println("단 : ");
 		
 		int dan = sc.nextInt();
-				
 		int i=1; //초기화
+		int index = 1;
 				
 		while(i<=9) {
 			System.out.println(dan + "*" + (i) + "="+ dan*(i) );
 			
-			i++;
+			i++; // 증감식
 		}
 		sc.close();
 		

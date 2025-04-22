@@ -7,6 +7,7 @@ public class Ex01 {
 				
 		int i = 0; //초기화
 		
+		//조건식
 		while(i<5) { //i<5 는 반복조건
 			
 			System.out.println("I like Java"+i);
