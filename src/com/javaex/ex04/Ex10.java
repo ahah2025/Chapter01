@@ -22,7 +22,5 @@ public class Ex10 {
 		}
 		System.out.println("종료");
 		sc.close();
-
 	}		
-	
 }	
