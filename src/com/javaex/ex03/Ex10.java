@@ -31,7 +31,7 @@ public class Ex10 {
 				
 			default: //나머지 else 
 				//default 값을 D E F A U L T 영어 정확히 적을 것 dafault 라고 적지 말고 DE로 적기 
-				System.out.println("상담원");
+				System.out.println("상담원에게 문의하세요");
 				
 		}
 				
