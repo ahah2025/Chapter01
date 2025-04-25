@@ -4,7 +4,7 @@ public class Ex01 {
 
 	public static void main(String[] args) {
 		
-		//(int)(Math.random()*10)+1;
+		//(int)(Math.random()* 최대값 ) + 최소값 ;
 		
 		int no01 = (int)(Math.random()*45)+1;
 		int no02 = (int)(Math.random()*45)+1;
@@ -19,6 +19,9 @@ public class Ex01 {
 		System.out.println(no04);
 		System.out.println(no05);
 		System.out.println(no06);
+		
+		System.out.println("----------------");
+		System.out.println((int)(Math.random()*10) + 2);
 		
 	}
 
