@@ -5,6 +5,28 @@ import java.util.Scanner;
 public class Ex13 {
 
 	public static void main(String[] args) {
+
+		Scanner sc=new Scanner(System.in);
+		
+		int sum = 0;
+		System.out.println("숫자를 입력하세요");
+		
+		while(true) {
+			int num = sc.nextInt(); //숫자 입력받음
+			//sum = sum + num;   				//누적 
+			//System.out.println("합계: "+ sum); //합계가 출력 되고 난 이후 종료가 보임
+		
+			if(num==0) {//0이면 끝
+				break; //반복문 끝
+			}
+			sum = sum + num;   				  //누적
+			System.out.println("합계: "+ sum); //출력
+			
+		}	
+		
+		System.out.print("종료");
+		sc.close();
+		
 		/*
 		Scanner sc = new Scanner(System.in);
 		
@@ -27,26 +49,6 @@ public class Ex13 {
 		 */
 		
 		//////////////////////////////////
-		Scanner sc=new Scanner(System.in);
-		
-		int sum = 0;
-		System.out.println("숫자를 입력하세요");
-		
-		while(true) {
-			int num = sc.nextInt(); //숫자 입력받음
-			//sum = sum + num;   				//누적 
-			//System.out.println("합계: "+ sum); //합계가 출력 되고 난 이후 종료가 보임
-		
-			if(num==0) {//0이면 끝
-				break; //반복문 끝
-			}
-			sum = sum + num;   				  //누적
-			System.out.println("합계: "+ sum); //출력
-			
-		}	
-		
-		System.out.print("종료");
-		sc.close();
 	}
 
 }	
