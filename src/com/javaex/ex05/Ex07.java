@@ -12,6 +12,7 @@ public class Ex07 {
 		intArry[1]=6;
 		intArry[2]=9;
 				
+		//intArry.length => 5
 		for(int i=0; i<=intArry.length; i++) {
 			System.out.println(intArry[i]);
 		}
