@@ -9,9 +9,9 @@ public class Ex10 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("과목을 선택하세요");
 		System.out.print("과목: ");
-		//int code = sc.nextInt();
+		int code = sc.nextInt();
 		
-		char code = 'A';
+		//char code = 'A';
 		
 		switch(code) { 
 			case 1: //코드가 1과 같으면
